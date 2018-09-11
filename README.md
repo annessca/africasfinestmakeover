@@ -1,0 +1,2 @@
+# africasfinestmakeover
+A static webpage
