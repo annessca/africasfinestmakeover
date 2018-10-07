@@ -17,12 +17,24 @@ html,body{
   -ms-background-size: cover;
 }
 body a{
-    transition:0.5s all;
+  transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  overflow: hidden
+}
+
+#items {
+  height: 100px;
+  margin-bottom: 50px
+}
+
 .header {
 	padding: 2em 0;
 }
@@ -35,12 +47,11 @@ body a{
 
 .head-nav ul li{
 	display:inline-block;
-	float:left;
 }
 .head-nav {
 	float: right;
 	padding: 1em 1em;
-	background:#f53f1a;
+	background:#6b5b58;
 }
 
 /*--*/
@@ -268,7 +279,7 @@ a.morebtn:hover{
 	background:#555;	
 }
 .callbacks_here a:after{
-	background:#f53f1a;
+	background:#6b5b58;
 }
 .callbacks_tabs a{
 	visibility:hidden;
@@ -382,7 +393,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   font-family: 'Libre Baskerville', serif;
 }
 .nam-matis h3 a:hover{
-  color: #f53f1a;
+  color: #6b5b58;
 }
 .nam-matis p {
   color: #302e2e;
@@ -440,7 +451,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   font-family: 'Libre Baskerville', serif;
 }
 .blog-grid-right h4 a:hover{
-  color: #f53f1a;
+  color: #6b5b58;
 }
 .blog-grid-right h4{
   margin: 0;
@@ -470,10 +481,10 @@ ul.callbacks_tabs.callbacks1_tabs {
   text-decoration: none;
 }
 .blo-top li a:hover{
-	color:#f53f1a;
+	color:#6b5b58;
 }
 .bann-left h3 {
-  background: #f53f1a;
+  background: #6b5b58;
   color: #fff;
   padding: 0.5em 1em;
   margin: 1.5em 0 0;
@@ -537,7 +548,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .nbs-flexisel-item > img {
 	cursor: pointer;
-	positon: relative;
+	position: relative;
 	margin-top:5px;
 	margin-bottom: 10px;
 	max-width:240px;
@@ -817,9 +828,7 @@ h3.m_3 {
   border: 1px solid #D8DADC;
 }
 /*-- blog --*/
-.blog{
-	
-}
+
 .blog a{
 	text-decoration:none;
 }
@@ -1211,8 +1220,7 @@ i.adm1{
 .sub-button {
 	margin-bottom: 25px;
 }
-.company_ad {
-}
+
 .contact_left h4 {
   font-size: 1.7em;
   color: #26313b;
@@ -1893,7 +1901,7 @@ h3.m_3 {
 	background:none;
 }
 .bann-right {
-  padding: 0;
+  padding: 2em;
 }
 .caption h3 {
   font-size: 1.3em;
@@ -1912,7 +1920,7 @@ h3.m_3 {
 .bann-left {
   float: right;
   width: 30%;
-  padding: 0;
+  padding: 2em;
 }
 .bann-right {
   padding: 0;
@@ -1929,7 +1937,6 @@ h3.m_3 {
   font-size: 1.1em;
 }
 .foot-1 {
-  float: left;
   width: 25%;
   padding: 7px;
 }
