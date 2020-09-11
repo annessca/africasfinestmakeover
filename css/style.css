@@ -51,7 +51,7 @@ body a{
 .head-nav {
 	float: right;
 	padding: 1em 1em;
-	background:#6b5b58;
+	background: rgb(91, 143, 91);
 }
 
 /*--*/
@@ -186,7 +186,7 @@ ul a:focus {
 
 /* Add a background color to the active dot/circle */
 .circle:hover, .circle.active {
-  background-color: orange;
+  background-color: palevioletred;
 }
 
 .banner {
@@ -279,7 +279,7 @@ a.morebtn:hover{
 	background:#555;	
 }
 .callbacks_here a:after{
-	background:#6b5b58;
+	background:rgb(91, 143, 91);
 }
 .callbacks_tabs a{
 	visibility:hidden;
@@ -393,7 +393,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   font-family: 'Libre Baskerville', serif;
 }
 .nam-matis h3 a:hover{
-  color: #6b5b58;
+  color: rgb(91, 143, 91);
 }
 .nam-matis p {
   color: #302e2e;
@@ -451,7 +451,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   font-family: 'Libre Baskerville', serif;
 }
 .blog-grid-right h4 a:hover{
-  color: #6b5b58;
+  color: rgb(91, 143, 91);
 }
 .blog-grid-right h4{
   margin: 0;
@@ -460,6 +460,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   padding: 1em 1em;
   border: 1px solid #D8DADC;
   margin: 1em 0;
+  background-color: rgb(243, 222, 225);
 }
 .blog-grid-right p {
   color: #302e2e;
@@ -476,16 +477,16 @@ ul.callbacks_tabs.callbacks1_tabs {
 .blo-top li a {
   color: #302e2e;
   font-size: 1.1em;
-  line-height: 2.8em;
+  line-height: 2.7em;
   padding: 1em;
   text-decoration: none;
 }
 .blo-top li a:hover{
-	color:#6b5b58;
+	color:rgb(91, 143, 91);
 }
 .bann-left h3 {
-  background: #6b5b58;
-  color: #fff;
+  background: rgb(91, 143, 91);
+  color: whitesmoke;
   padding: 0.5em 1em;
   margin: 1.5em 0 0;
   font-size: 1.3em;
